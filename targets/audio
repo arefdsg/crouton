@@ -120,7 +120,7 @@ build_cras() {
         cd cras/src
 
         # Create version file
-        echo '#define VCSID "crouton-'"$ADHD_HEAD"'"' > common/cras_version.h
+        #echo '#define VCSID "crouton-'"$ADHD_HEAD"'"' > common/cras_version.h
 
         install --minimal --asdeps patch
 
